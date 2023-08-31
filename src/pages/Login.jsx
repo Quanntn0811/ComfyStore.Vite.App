@@ -49,7 +49,10 @@ const Login = () => {
   }
 
   return (
-    <section className="h-screen grid place-items-center">
+    <section
+      className=" grid place-items-center"
+      style={{ height: `100vh - 104px` }}
+    >
       <Form
         method="post"
         className="card w-96 p-8 bg-base-100 shadow-lg flex flex-col gap-y-4"
